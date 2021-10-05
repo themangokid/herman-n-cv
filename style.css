@@ -1,0 +1,16 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.item {
+  flex-grow: 1;
+  height: 100px;
+}
+
+/*Pluset står för: "efter första item, lägg till 2% margin*/
+.item + .item {
+  margin-left: 2%;
+}
